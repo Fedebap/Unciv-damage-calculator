@@ -10,6 +10,6 @@ A web-based damage calculator for [Unciv](https://github.com/yairm210/Unciv) and
 ## Details  
 - Built with **HTML, CSS and JavaScript**.  
 - Formula based on Unciv’s open code.
-- Should also work for Civilization V
+- Should also work for Civilization V.
 
 Open to suggestions, hope you like it!
