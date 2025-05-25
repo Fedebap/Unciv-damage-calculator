@@ -1,3 +1,27 @@
+@media (max-width: 600px) {
+  .calculator {
+    max-width: 100%;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+  }
+  
+  .input-group input {
+    font-size: 16px; /* Prevents iOS zooming */
+    padding: 12px 8px; /* Bigger tap targets */
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 18px;
+  }
+  
+  body {
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
