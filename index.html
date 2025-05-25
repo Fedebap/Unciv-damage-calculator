@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unciv damage calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <h1>Unciv damage calculator</h1>
+    
+    <!--attacker inputs-->
+    <div class="input-group">
+      <label for="attacker-strength">Attacker strength (after modifiers):</label>
+      <input type="number" id="attacker-strength" min="0" value="0"> 
+    </div>
+    <div class="input-group">
+      <label for="attacker-health">Attacker health:</label>
+      <input type="number" id="attacker-health" min="1" value="100">
+    </div>
+
+    <!--defender inputs-->
+    <div class="input-group">
+      <label for="defender-strength">Defender strength (after modifiers):</label>
+      <input type="number" id="defender-strength" min="0" value="0">
+    </div>
+    <div class="input-group">
+      <label for="defender-health">Defender health:</label>
+      <input type="number" id="defender-health" min="1" value="100">
+    </div>
+    
+
+    <button id="calculate-button">Calculate outcome!</button>
+
+    <div id="result"></div>
+    <div>
+      <p>
+        Note: For city calculations, always assume they have 100 health. Also, sometimes there's a one point error in the results due to rounding. Also works for Civ5. Open to suggestions!
+      </p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
