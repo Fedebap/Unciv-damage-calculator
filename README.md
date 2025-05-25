@@ -11,4 +11,5 @@ A web-based damage calculator for [Unciv](https://github.com/yairm210/Unciv) and
 - Formula based on Unciv’s open code.
 - Should also work for Civilization V
 
+Open to suggestions.
 Hope you like it!
